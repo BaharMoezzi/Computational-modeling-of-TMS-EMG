@@ -13,4 +13,4 @@ To be able to run this code, the following modules need to be installed:
 * gnu 6.3.0
 
 # How to run?
-The Run.sub file should be used to run the code on high performance computing (HPC) Clusters. The input to main.py is the membrane potential of 150 cortical layer 5 neurons in a text format. The outputs are EMG signal and monotoeurons spike times.
+The Run.sub file should be used to run the code on high performance computing (HPC) Clusters. The input to main.py is the membrane potential of cortical layer 5 neurons in a text format. The outputs are EMG signal and monotoeurons spike times.
