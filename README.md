@@ -12,4 +12,4 @@ The details of how TMS generates responses measured with EMG are not completely 
 * gnu 6.3.0
 
 # How to run?
-The input to main.py is the membrane potential of 150 cortical layer 5 neurons collected close to the spinal motoneurons in a text format. The Run.sub file is used to run the code on high performance computing (HPC) Clusters. The outputs are EMG signal and monotoeurons spike times.
+The Run.sub file should be used to run the code on high performance computing (HPC) Clusters. The input to main.py is the membrane potential of 150 cortical layer 5 neurons in a text format. The outputs are EMG signal and monotoeurons spike times.
