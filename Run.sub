@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#PBS -V
+
+### Job name
+#SBATCH --job-name=EMG_TMS
+
+### Set email type for job
+### Accepted options: NONE, BEGIN, END, FAIL, ALL
+#SBATCH --mail-type=ALL
+
+### email address for user
+#SBATCH --mail-user=test@gmail.com
+
+### Queue name that job is submitted to
+
+#SBATCH --partition=tango
+
+### Request nodes
+#SBATCH --ntasks=1
+#SBATCH --mem=40gb
+#SBATCH --time=100:00:00
+
+echo Running on host `hostname`
+echo Time is `date`
+
+#Load module(s) if required
+module load gnu/6.3.0 
+module load python/6.3.0/2.7.13 
+module load numpy/1.12.1 
+module load mpi4py/2.0.0
+module load openmpi/gnu/2.1.0-gcc4.8.5 
+module load neuron/7.3
+
+unsetenv DISPLAY
+# Run the executable
+mpirun -n 1 python Main.py   
+
+#sleep 60
+
+
