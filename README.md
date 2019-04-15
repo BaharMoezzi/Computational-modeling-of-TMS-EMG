@@ -1,7 +1,7 @@
 # Introduction
 This repository provides the code for our simulation of EMG recordings following TMS. 
 
-The details of how TMS generates responses measured with EMG are not completely understood. We developed a biophysically detailed computational model to study the potential mechanisms underlying the generation of EMG signals following TMS. Our model successfully reproduces several characteristics of the experimental data. This model should be considered as a viable tool for explaining and analyzing EMG signals following TMS. For more details see our published article: "[Simulation of electromyographic recordings following transcranial magnetic stimulation](https://doi.org/10.1152/jn.00626.2017)".
+The details of how TMS generates responses measured with EMG are not completely understood. We developed a biophysically detailed computational model to study the potential mechanisms underlying the generation of EMG signals following TMS. Our model successfully reproduces several characteristics of the experimental data and should be considered as a viable tool for explaining and analyzing EMG signals following TMS. For more details see our published article: "[Simulation of electromyographic recordings following transcranial magnetic stimulation](https://doi.org/10.1152/jn.00626.2017)".
 
 # Dependencies
 python 2.7.13 
